@@ -1,0 +1,191 @@
+@charset "Shift_JIS";
+
+input[type="submit"] {
+	border:none;
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:1.1em;
+}
+
+input[type="submit"] {
+   -webkit-appearance: none;
+   border-radius: 0;
+}
+
+/* * {
+	-webkit-appearance: none;
+} */
+
+.emono1_acc_image {
+	display:none;
+}
+
+/*otoiawase*/
+div.contact-box {
+	padding:20px;
+	background:#fff;
+}
+
+div#otoiawase input,div#otoiawase textarea {
+	font-size:16px;
+}
+
+div.toiawase_top {
+	margin-bottom: 20px;
+	padding:15px;
+	text-align:center;
+	font-size:1.2em;
+	border:5px solid #eee;
+}
+
+div.toiawase_top strong {
+	font-size:1.4em;
+	color:#C93434;
+}
+
+div.toiawase_top strong a {
+	font-weight:bold;
+	color:#D60128;
+	display:block;
+}
+
+div#otoiawase table {
+	width:100%;
+	margin:0;
+}
+
+div#otoiawase table td.form_index {
+	width:30%;
+	padding:15px;
+	border:1px solid #ddd;
+	background:#FBFBDA;
+	vertical-align:top;
+}
+
+div#otoiawase table td.list_value {
+	width:70%;
+	padding:15px;
+	border:1px solid #ddd;
+	background:#FFF;
+	vertical-align:top;
+}
+
+div#otoiawase table td.list_value input,div#otoiawase table td.list_value textarea {
+	padding:10px;
+	border:1px solid #ddd;
+}
+div#otoiawase table tr.style_name input,div#otoiawase table tr.style_kana input,div#otoiawase table tr.style_add input,div#otoiawase table tr.style_e_mail input,div#otoiawase table tr.style_e_mail_check input,div#otoiawase table tr.style_field19 input,div#otoiawase table tr.style_field28 input {
+	width:96%;
+}
+
+div#otoiawase table.form_2963 tr.style_field4 input,div#otoiawase table.form_2963 tr.style_field6 input,div#otoiawase table.form_2963 tr.style_field7 input,div#otoiawase table.form_2963 tr.style_field8 input,div#otoiawase table.form_2963 tr.style_field12 input,div#otoiawase table.form_2963 tr.style_field13 input,div#otoiawase table.form_2963 tr.style_field14 input {
+	width:96%;
+}
+
+div#otoiawase table tr.style_zip input,div#otoiawase table tr.style_tel input {
+	margin:0 10px;
+}
+
+div#otoiawase table tr td textarea {
+	width:96%;
+	height:150px;
+}
+
+div#otoiawase table tr.style_field3 td,div#otoiawase table tr.style_field5 td,div#otoiawase table tr.style_field15 td,div#otoiawase table tr.style_field18 td,div#otoiawase table tr.style_field23 td,div#otoiawase table tr.style_field27 td,div#otoiawase table tr.style_field29 td,div#otoiawase table.form_2963 tr.style_field1 td,div#otoiawase table.form_2963 tr.style_field9 td,div#otoiawase table.form_2963 tr.style_field11 td,div#otoiawase table.form_2963 tr.style_field16 td {
+	width:100%;
+	padding:30px 10px;
+	background:#FFF;
+	border:none;
+	color:#111;
+}
+
+div#otoiawase table tr.style_field2 input,div#otoiawase table tr.style_field4 input,div#otoiawase table tr.style_field7 input,div#otoiawase table tr.style_field14 input,div#otoiawase table tr.style_shop_dm input {
+	vertical-align:middle;
+}
+
+div#otoiawase table tr.tr_submit {
+	text-align:center;
+}
+
+div#otoiawase table tr.tr_submit input {
+	margin:20px auto 5px auto;
+	padding:15px 30px;
+	border:1px solid #ddd;
+	font-size:1.4em;
+	cursor:pointer;
+	color:#fff;
+	background:#FD0101;
+}
+
+div#otoiawase table tr.tr_submit input[type="button"] {
+	color:#000;
+	background:#ddd;
+}
+
+div#otoiawase table tr.tr_submit input:hover {
+	color:#fff;
+	background:#17B4E3;
+}
+
+div#otoiawase span {
+	color:#FF0000;
+}
+
+a.otoiawase_back {
+	display:none;
+}
+
+@media (max-width: 880px){
+div.contact-box {
+	padding:10px;
+	background:#fff;
+}
+
+div.toiawase_top {
+	margin-bottom: 10px;
+	padding:10px;
+	border:none;
+}
+
+div.toiawase_top strong {
+	font-size:5vw;
+}
+
+div#otoiawase table td.form_index {
+	width:100%;
+	padding:10px 0 0 0;
+	display:block;
+	border:none;
+	background:none;
+	color:#000;
+}
+
+div#otoiawase table td.list_value {
+	width:100%;
+	padding:10px 8px 10px 0;
+	display:block;
+	border:none;
+}
+
+div#otoiawase table tr.style_zip input,div#otoiawase table tr.style_tel input {
+	margin:0 10px 0 0;
+}
+
+div#otoiawase table tr td textarea {
+	height:100px;
+}
+
+div#otoiawase table tr.style_field3 td,div#otoiawase table tr.style_field5 td,div#otoiawase table tr.style_field15 td,div#otoiawase table tr.style_field18 td,div#otoiawase table tr.style_field23 td,div#otoiawase table tr.style_field27 td,div#otoiawase table tr.style_field29 td {
+	padding:10px 0;
+	border:none;
+	color:#4487C9;
+	font-weight:bold;
+}
+
+div#otoiawase table tr.tr_submit input {
+	margin:10px auto;
+	padding:15px 20px;
+	font-size:1.1em;
+}
+}
