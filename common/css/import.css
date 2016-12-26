@@ -1,5 +1,6 @@
 @import "base.css";
 @import "style.css";
-@import "nekostyle.css";
-@import "lightbox.css";
 @import "headnav.css";
+@import "lightbox.css";
+@import "animate.css";
+@import "hover-min.css";
